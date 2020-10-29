@@ -1,13 +1,20 @@
 public class MyClass {
   // Static method
   static void myStaticMethod() {
-    System.out.println("Niebo jest niebieskie");
+    System.out.println("niebo pełne chmur");
   }
 
   // Public method
   public void myPublicMethod() {
     System.out.println("Trawa jest zielona");
   }
+  
+  public void myPublicMethod2() {
+    System.out.println("gruszka i pietruszka");
+  }
+  
+  
+  
 
   
   public void myPublicMethod2() {
