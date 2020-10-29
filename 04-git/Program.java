@@ -1,12 +1,12 @@
 public class MyClass {
   // Static method
   static void myStaticMethod() {
-    System.out.println("Static methods can be called without creating objects");
+    System.out.println("Niebo jest niebieskie");
   }
 
   // Public method
   public void myPublicMethod() {
-    System.out.println("Public methods must be called by creating objects");
+    System.out.println("Trawa jest zielona");
   }
 
   // Main method
