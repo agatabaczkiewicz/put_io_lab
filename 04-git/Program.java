@@ -1,7 +1,7 @@
 public class MyClass {
   // Static method
   static void myStaticMethod() {
-    System.out.println("Static methods can be called without creating objects");
+    System.out.println("Niebo jest niebieskie");
   }
 
   // Public method
