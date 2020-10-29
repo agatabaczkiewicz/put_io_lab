@@ -6,7 +6,7 @@ public class MyClass {
 
   // Public method
   public void myPublicMethod() {
-    System.out.println("Public methods must be called by creating objects");
+    System.out.println("Trawa jest zielona");
   }
 
   // Main method
