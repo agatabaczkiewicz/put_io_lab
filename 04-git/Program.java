@@ -10,7 +10,7 @@ public class MyClass {
   }
   
   public void myPublicMethod2() {
-    System.out.println("gruszka i pietruszka");
+    System.out.println("jabłko i pietruszka");
   }
   
   
