@@ -13,8 +13,8 @@ public class ExpenseRepository implements IExpenseRepository {
 	private IFancyDatabase fancyDatabase;
 
 
-	public ExpenseRepository(IFancyDatabase base) {
-		this.fancyDatabase = base;
+	public ExpenseRepository(IFancyDatabase myBase) {
+		this.fancyDatabase = myBase;
 		expenses = new ArrayList<Expense>();
 	}
 
