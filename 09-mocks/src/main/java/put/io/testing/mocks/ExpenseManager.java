@@ -1,18 +1,19 @@
 package put.io.testing.mocks;
 
+import put.io.students.fancylibrary.service.FancyService;
+
+
 import java.net.ConnectException;
 import java.util.List;
-
-import put.io.students.fancylibrary.service.FancyService;
 
 public class ExpenseManager {
 
 	private ExpenseRepository expenseRepository;
 	private FancyService fancyService;
 
-	public ExpenseManager(ExpenseRepository er,FancyService fs) {
-		this.expenseRepository = er;
-		this.fancyService = fs;
+	public ExpenseManager(ExpenseRepository exRepo, FancyService fancyServ) {
+		this.expenseRepository = exRepo;
+		this.fancyService = fancyServ;
 	}
 
 	public long calculateTotal() {
@@ -47,7 +48,7 @@ public class ExpenseManager {
 
 		}
 
-		return (int)convertedTotal;
+		return (int) convertedTotal;
 	}
 
 	public long convertExpenseToDollars(Expense expense) {
@@ -58,7 +59,7 @@ public class ExpenseManager {
 
 		}
 
-		return (int)convertedAmount;
+		return (int) convertedAmount;
 	}
 
 
