@@ -1,0 +1,18 @@
+1.
+dla bazowego
+rec - 15.86 KB/sec
+througput 40.0 /min
+
+moja zmiana
+dodanie 
+double aS=averageSpendings()
+przed pętlą for, dzięi temu ta funkcja wywowała się tylko raz, a nie 2 razy dla każdej iteracji pętli
+po modyfikacji
+throughput - 9.6 /sec
+received - 230.42 KB/sec
+
+2.
+dla założonej konfiguracji
+througput - 1.9/sec
+
+proponuje 30 drukarek daje to przepustowość 5.8/sec czyli prawie taka jaka byla zakladana
